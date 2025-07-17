@@ -37,7 +37,13 @@ body{
 .contain .login-box .name input{
   width: 100%;
   background: transparent;
-  border: none;
+  border: 1px transparent solid;
   padding: 12px ;
   margin-top: 20px;
+}
+
+.contain .login-box .Remember{
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
